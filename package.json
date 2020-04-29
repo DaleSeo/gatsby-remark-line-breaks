@@ -1,0 +1,26 @@
+{
+  "name": "@daleseo/gatsby-remark-breaks",
+  "version": "0.0.0",
+  "description": "Add break support to gatsby-transformer-remark, without needing spaces using remark-breaks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaleSeo/gatsby-remark-breaks.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "markdown",
+    "remark",
+    "breaks"
+  ],
+  "author": "Dale Seo <DaleSeo@gmail.com> (https://www.daleseo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaleSeo/gatsby-remark-breaks/issues"
+  },
+  "homepage": "https://github.com/DaleSeo/gatsby-remark-breaks#readme"
+}
