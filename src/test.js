@@ -5,7 +5,7 @@ import hastToHTML from "hast-util-to-html";
 import { setParserPlugins } from "./";
 
 describe("gatsby-remark-line-breaks", () => {
-  test("A line break that is preceded by a backslash is parsed as a hard line break.", () => {
+  test("A line break is parsed as a hard line break.", () => {
     const remark = new Remark();
     setParserPlugins().forEach((parserPlugins) => remark.use(parserPlugins));
 
@@ -17,7 +17,7 @@ describe("gatsby-remark-line-breaks", () => {
     expect(htmlText).toEqual("<p>foo<br>\nbaz</p>");
   });
 
-  test("A line break that is preceded by two or more spaces is still parsed as a hard line break.", () => {
+  test("Two or more spaces is still parsed as a hard line break.", () => {
     const remark = new Remark();
     setParserPlugins().forEach((parserPlugins) => remark.use(parserPlugins));
 
