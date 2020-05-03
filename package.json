@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "babel src -d ."
+    "build": "babel src -d . --ignore 'src/test.js'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "remark",
     "breaks"
   ],
-  "author": "Dale Seo <DaleSeo@gmail.com>",
+  "author": "Dale Seo <DaleSeo@gmail.com> (https://www.daleseo.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DaleSeo/gatsby-remark-breaks/issues"
@@ -32,7 +32,9 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
+    "hast-util-to-html": "^7.1.0",
     "jest": "^25.5.1",
+    "mdast-util-to-hast": "^9.0.1",
     "remark": "^12.0.0"
   }
 }
