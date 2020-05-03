@@ -1,6 +1,6 @@
 # gatsby-remark-line-breaks
 
-Add support for hard linke breaks to [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/), powered by [remark-breaks](https://github.com/remarkjs/remark-breaks).
+Add support for hard line breaks to [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/), powered by [remark-breaks](https://github.com/remarkjs/remark-breaks).
 
 ## How to install
 
