@@ -1,5 +1,5 @@
 {
-  "name": "@daleseo/gatsby-remark-breaks",
+  "name": "gatsby-remark-line-breaks",
   "version": "0.0.0",
   "description": "Add break support to gatsby-transformer-remark, without needing spaces using remark-breaks",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "remark",
     "breaks"
   ],
-  "author": "Dale Seo <DaleSeo@gmail.com> (https://www.daleseo.com/)",
+  "author": "Dale Seo <DaleSeo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DaleSeo/gatsby-remark-breaks/issues"
