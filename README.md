@@ -20,9 +20,11 @@ baz
 ```
 
 ```html
-<p>foo<br />
+<p>foo<br>
 baz</p>
 ```
+
+You will find more information about hard line breaks on GitHub Flavored Markdown Spec [here](https://github.github.com/gfm/#hard-line-breaks).
 
 ## Examples of usage
 
