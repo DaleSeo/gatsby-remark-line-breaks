@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-line-breaks",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Add break support to gatsby-transformer-remark, without needing spaces using remark-breaks",
   "main": "dist/index.js",
   "scripts": {
